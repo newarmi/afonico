@@ -1,0 +1,397 @@
+@font-face {
+  font-family: "Forum";
+  font-display: swap;
+  src: url("../fonts/Forum-Regular.woff") format("woff"), url("../fonts/Forum-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-Medium 12.woff") format("woff"), url("../fonts/Montserrat-Medium 12.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.header-top {
+  height: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #09252e;
+}
+
+.header-top__conteiner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-top__row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.conteiner {
+  max-width: 1770px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-top__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.email {
+  margin: 0px 53px 0px 0px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.email .header-top-content {
+  font-size: 18px;
+}
+
+.phone {
+  margin: 0px 15px 0px 0px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone .header-top-content {
+  font-size: 20px;
+}
+
+.header-top-icon {
+  margin: 0px 10px 0px 0px;
+}
+
+.header-top-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.select-lang {
+  width: 67px;
+  height: 47px;
+  padding: 0px 0px 0px 11px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  /* identical to box height */
+  background-color: transparent;
+  background-image: url("../img/arrow.svg");
+  background-size: 8px 6px;
+  color: #fff;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.header-bottom {
+  background: #fff;
+  padding: 43px 0;
+}
+
+.header-bottom .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.primary-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-item {
+  list-style-type: none;
+}
+
+.menu-item a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  /* identical to box height */
+  color: #000;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.search-rooms__wrapper {
+  width: 100%;
+  background: #fff;
+  height: 261px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 93px;
+}
+
+.search-rooms__select-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search-rooms__select-label span {
+  display: inline-block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0px 0px 15px 0px;
+}
+
+.search-rooms__select-label select,
+.search-rooms__select-label input {
+  width: 291px;
+  height: 91px;
+  padding: 0px 24px 0px 18px;
+  border-radius: 0;
+  border: 1px;
+  border: 1px solid #9ca8ac;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.search-rooms__select-label input::-webkit-datetime-edit {
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+.conteiner {
+  padding: 0 30px;
+}
+
+.select-hotel {
+  padding: 63px 0;
+  background: #c0c0c0;
+}
+
+.select-hotel__title {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 60px;
+  /* identical to box height, or 109% */
+  text-align: center;
+  color: #000000;
+  margin: 0px 0px 82px 0px;
+}
+
+.select-hotel-tab-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.select-hotel-tab-nav__item {
+  position: relative;
+  border: 1px solid #9ca8ac;
+  padding: 10px 25px;
+  display: inline-block;
+  width: 22vw;
+  color: #000000;
+}
+
+.select-hotel-tab-nav__item span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  color: #000;
+}
+
+.select-hotel-tab-nav__title {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 60px;
+  /* or 200% */
+  text-align: center;
+}
+
+.select-hotel-tab-nav__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.select-hotel-tab-nav__metro-item {
+  margin: 0px 0px 10px 0px;
+}
+
+.select-hotel-tab-nav__metro-item svg {
+  margin: 0px 10px 0px 0px;
+}
+
+.select-hotel-tab-nav__contacts {
+  margin: 0px 0px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.select-hotel-tab-nav__contacts svg {
+  fill: #000;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30px;
+          flex: 0 1 30px;
+}
+
+.select-hotel-tab-nav__contacts span {
+  margin: 0px 0px 0px 10px;
+}
+
+.select-hotel-tab-body {
+  height: 65vh;
+}
+
+.select-hotel-tab-body__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.select-hotel-tab-body__bg {
+  background: url("../img/bg-select-hotel.jpg");
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 50%;
+}
+
+.select-hotel-tab-body-right-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.--blue:before {
+  content: "";
+  width: calc(100% + 2px);
+  height: 11px;
+  position: absolute;
+  top: -12px;
+  left: -1px;
+  background: #547dbf;
+}
+
+.--green:before {
+  content: "";
+  width: calc(100% + 2px);
+  height: 11px;
+  position: absolute;
+  top: -12px;
+  left: -1px;
+  background: #34a851;
+}
+
+.--red:before {
+  content: "";
+  width: calc(100% + 2px);
+  height: 11px;
+  position: absolute;
+  top: -12px;
+  left: -1px;
+  background: #ea4435;
+}
+
+.--yellow:before {
+  content: "";
+  width: calc(100% + 2px);
+  height: 11px;
+  position: absolute;
+  top: -12px;
+  left: -1px;
+  background: rgba(249, 188, 21, 0.9);
+}
